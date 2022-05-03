@@ -6,7 +6,7 @@ body {
   width: 550px;
   height: 868px;
   margin: 100px 120px;
-  background-color: #23252C;
+  background-color: #23252c;
 }
 
 .app {
@@ -15,7 +15,7 @@ body {
 }
 
 .info {
-  background: #1A1B21;
+  background: #1a1b21;
   width: 317px;
 }
 
@@ -34,20 +34,20 @@ body {
   font-family: Inter;
   font-weight: bold;
   font-size: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 21px;
 }
 
 .info--title {
-font-family: Inter;
-font-size: 12.8px;
-color: #F3BF99;
+  font-family: Inter;
+  font-size: 12.8px;
+  color: #f3bf99;
 }
 
 .info--nameweb {
   font-family: Inter;
   font-size: 10.24px;
-  color: #F5F5F5;
+  color: #f5f5f5;
 }
 
 .info--btn {
@@ -62,13 +62,14 @@ color: #F3BF99;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   padding: 9px 13px 9px 11px;
   margin-right: 8px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 6px;
   width: 115px;
   height: 34px;
-  border: 1px solid #D1D5DB;
+  border: 1px solid #d1d5db;
 }
 
 .info--linkbtn {
@@ -76,16 +77,17 @@ color: #F3BF99;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   font-family: Inter;
   font-weight: 500;
   font-size: 14px;
-  background: #5093E2;
+  background: #5093e2;
   color: white;
   border-radius: 6px;
   width: 115px;
   height: 34px;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border: 1px solid #5093E2;
+  border: 1px solid #5093e2;
 }
 
 .info--iconmail {
@@ -99,36 +101,36 @@ color: #F3BF99;
 .about {
   width: 317px;
   padding-left: 36px;
-  background: #1A1B21;
+  background: #1a1b21;
   padding-top: 25px;
   padding-bottom: 1px;
 }
 
 .about--title {
-  color: #F5F5F5;
+  color: #f5f5f5;
   font-size: 16px;
 }
 
 .about--text {
-  color: #DCDCDC;
+  color: #dcdcdc;
   font-size: 10.24px;
 }
 
 .interests {
   width: 317px;
   padding-left: 36px;
-  background: #1A1B21;
+  background: #1a1b21;
   padding-top: 1px;
   padding-bottom: 25px;
 }
 
 .interests--title {
-  color: #F5F5F5;
+  color: #f5f5f5;
   font-size: 16px;
 }
 
 .interests--text {
-  color: #DCDCDC;
+  color: #dcdcdc;
   font-size: 10.24px;
 }
 
@@ -139,7 +141,10 @@ color: #F3BF99;
   border-radius: 0 0 10px 10px;
 }
 
-.footer--twibtn, .footer--fbbtn, .footer--igbtn, .footer--gitbtn {
+.footer--twibtn,
+.footer--fbbtn,
+.footer--igbtn,
+.footer--gitbtn {
   margin: 12px;
   padding: 0;
   width: 25px;
@@ -148,6 +153,9 @@ color: #F3BF99;
   border-radius: 10px;
 }
 
-.footer--twitter, .footer--fb, .footer--ig, .footer--github {
+.footer--twitter,
+.footer--fb,
+.footer--ig,
+.footer--github {
   background: #161619;
 }
